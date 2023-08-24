@@ -107,32 +107,35 @@ def main():
 
     if delete_language == 'y':
         delete_language_code = input("Enter the language code to delete: ")
-
-        # Load and update the list of supported languages
-        with open('./locales/supportedLanguages.json', 'r') as supported_lang_file:
-            supported_languages = json.load(supported_lang_file)
-
-        existing_codes = [item["code"] for item in supported_languages]
-
-        if delete_language_code in existing_codes:
-            # Remove the language entry from the supported languages
-            supported_languages = [lang for lang in supported_languages if lang["code"] != delete_language_code]
-
-            # Save the updated supported languages list
-            with open('./locales/supportedLanguages.json', 'w') as json_file:
-                json.dump(supported_languages, json_file, indent=4)
-            
-            print(f'Language with code "{delete_language_code}" deleted from supported languages.')
-            translation_file_path = f'./../../public/locales/{delete_language_code}.json'
-            if os.path.exists(translation_file_path):
-                os.remove(translation_file_path)
-                print(f'Translation file "{delete_language_code}.json" deleted from public folder.')
-            else:
-                print(f'Translation file "{delete_language_code}.json" not found in public folder.')
-
-
+        if delete_language_code == 'en':
+            print("Cannot delete source language.")
+            return
         else:
-            print(f'Language with code "{delete_language_code}" does not exist in supported languages.')
+            # Load and update the list of supported languages
+            with open('./locales/supportedLanguages.json', 'r') as supported_lang_file:
+                supported_languages = json.load(supported_lang_file)
+
+            existing_codes = [item["code"] for item in supported_languages]
+
+            if delete_language_code in existing_codes:
+                # Remove the language entry from the supported languages
+                supported_languages = [lang for lang in supported_languages if lang["code"] != delete_language_code]
+
+                # Save the updated supported languages list
+                with open('./locales/supportedLanguages.json', 'w') as json_file:
+                    json.dump(supported_languages, json_file, indent=4)
+                
+                print(f'Language with code "{delete_language_code}" deleted from supported languages.')
+                translation_file_path = f'./../../public/locales/{delete_language_code}.json'
+                if os.path.exists(translation_file_path):
+                    os.remove(translation_file_path)
+                    print(f'Translation file "{delete_language_code}.json" deleted from public folder.')
+                else:
+                    print(f'Translation file "{delete_language_code}.json" not found in public folder.')
+
+
+            else:
+                print(f'Language with code "{delete_language_code}" does not exist in supported languages.')
     elif delete_language == 'n':
         target_language_code = input("Enter the target language code (e.g., 'es' for Spanish): ")
         overwrite_input = input("Do you want to overwrite existing translations? (y/n): ").strip().lower()
