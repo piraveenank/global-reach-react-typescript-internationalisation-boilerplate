@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  text-align: center;
+}
+
+.logo-image {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+.features {
+  text-align: center;
+}
+
+.features ul {
+  list-style: none; /* Remove default bullet points */
+  padding-left: 0;
+}
+
+.features li {
+  position: relative;
+  margin-bottom: 0.5em; /* Adjust this value as needed */
+  padding-left: 1em; /* Space for the star and some extra */
+  font-weight: 600;
+}
+
+.features li::before {
+  content: "★"; /* Unicode star symbol */
+  left: 0;
+  top: 0; /* Adjust vertical alignment as needed */
+  color: red;
+}

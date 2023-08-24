@@ -1,0 +1,13 @@
+{
+  "home_title": "Global Reach: React TypeScript Internationalisation Boilerplate",
+  "home_subtitle": "Welcome to GlobalReach, a Internationalisation Boilerplate that allows you add new languages in seconds. Built on the robust foundation of React and TypeScript, our boilerplate empowers developers to create multilingual web applications with utmost ease. Say goodbye to language barriers and hello to a world of possibilities. GlobalReach provides you with a powerful python script that allows you to effortlessly implement and manage translations, ensuring your app speaks the language of your global audience. Whether you're building a portfolio, an e-commerce platform, or a dynamic web app, GlobalReach simplifies the complexities of Internationalisation, allowing you to focus on what truly matters: crafting exceptional user experiences that resonate across cultures and borders.",
+  "key_features": "Key Features",
+  "key_features_1": "TypeScript Integration",
+  "key_features_2": "Add new languages in seconds",
+  "key_features_3": "Dynamic Content Rendering",
+  "key_features_4": "Custom Python Script",
+  "key_features_5": "Localisation Formatting",
+  "key_features_6": "Customisable Language Dropdown",
+  "key_features_7": "Translation Management",
+  "key_features_8": "Clear Documentation"
+}
