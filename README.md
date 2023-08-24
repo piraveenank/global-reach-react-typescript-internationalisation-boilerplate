@@ -2,6 +2,8 @@
 
 Welcome to GlobalReach, a Internationalisation Boilerplate that allows you add new languages in seconds. Built on the robust foundation of React and TypeScript, our boilerplate empowers developers to create multilingual web applications with utmost ease. Say goodbye to language barriers and hello to a world of possibilities. GlobalReach provides you with a powerful python script that allows you to effortlessly implement and manage translations, ensuring your app speaks the language of your global audience. Whether you're building a portfolio, an e-commerce platform, or a dynamic web app, GlobalReach simplifies the complexities of Internationalisation, allowing you to focus on what truly matters: crafting exceptional user experiences that resonate across cultures and borders.
 
+## Language Support
+Note: This library only supports the language codes inside [/LanguageCodes/LanguageCode.json](https://github.com/piraveenank/global-reach-react-typescript-internationalisation-boilerplate/blob/main/src/multiLanguage/LanguageCodes/LanguageCodes.json) or https://py-googletrans.readthedocs.io/en/latest/#language-detection
 
 ## Internationalisation (i18n)
 
