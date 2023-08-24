@@ -49,7 +49,9 @@ function App() {
         <p>
           Global Reach - Developed by Piraveenan Kirupakaran
           <br />
-          <a href="https://github.com/piraveenank/global-reach-react-typescript-internationalisation-boilerplate">
+          <a
+            style={{ color: "white" }}
+            href="https://github.com/piraveenank/global-reach-react-typescript-internationalisation-boilerplate">
             GitHub
           </a>
         </p>
