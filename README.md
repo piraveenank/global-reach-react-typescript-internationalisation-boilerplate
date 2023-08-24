@@ -31,6 +31,7 @@ This will install the necessary packages required for the translation script.
    python translater.py
    
 Follow the prompts:
+1. You will be asked whether you want to delete a language from the website. Enter 'Y' (yes) or 'N' (no) accordingly.
 1. You will be prompted to enter the target language code (e.g., 'es' for Spanish). Choose the appropriate language code from the list.
 2. You will also be asked whether existing translations should be overwritten. Enter 'Y' (yes) or 'N' (no) accordingly.
 The script will process the translations and update the language-specific resource files accordingly.
