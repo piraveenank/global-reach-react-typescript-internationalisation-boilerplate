@@ -5,6 +5,12 @@ Welcome to GlobalReach, a Internationalisation Boilerplate that allows you add n
 ## Language Support
 Note: This library only supports the language codes inside [/LanguageCodes/LanguageCode.json](https://github.com/piraveenank/global-reach-react-typescript-internationalisation-boilerplate/blob/main/src/multiLanguage/LanguageCodes/LanguageCodes.json) or https://py-googletrans.readthedocs.io/en/latest/#language-detection
 
+### Adding a Language
+https://github.com/piraveenank/global-reach-react-typescript-internationalisation-boilerplate/assets/140046724/6cb33ca2-d258-4725-909c-a9f54f33b135
+
+### Deleting a Language
+https://github.com/piraveenank/global-reach-react-typescript-internationalisation-boilerplate/assets/140046724/77e25127-7b8b-4193-9b37-81b37a67d3bf
+
 ## Internationalisation (i18n)
 
 The Alert Hub project supports internationalisation to make the application accessible in multiple languages. The translations are managed using Python scripts and language-specific resource files.
