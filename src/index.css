@@ -2,7 +2,10 @@
 
 * {
   font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
 .app-container {
   display: flex;
   justify-content: center;
@@ -48,4 +51,12 @@
   left: 0;
   top: 0; /* Adjust vertical alignment as needed */
   color: red;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }

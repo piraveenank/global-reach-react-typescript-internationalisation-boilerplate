@@ -38,15 +38,20 @@ function App() {
         </div>
       </div>
       <footer
+        id="footer"
         style={{
           textAlign: "center",
           backgroundColor: "black",
           color: "white",
+          marginTop: "20px",
+          flexShrink: 0,
         }}>
         <p>
-          Global Reach - Developed by [Your Name]
+          Global Reach - Developed by Piraveenan Kirupakaran
           <br />
-          <a href="[GitHub Link]">GitHub</a> | <a href="[NPM Link]">NPM</a>
+          <a href="https://github.com/piraveenank/global-reach-react-typescript-internationalisation-boilerplate">
+            GitHub
+          </a>
         </p>
       </footer>
     </>
