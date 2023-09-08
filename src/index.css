@@ -53,10 +53,21 @@
   color: red;
 }
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the app takes at least the full viewport height */
+}
+
+.app-container {
+  flex: 1; /* Grow to fill available vertical space */
+  padding-bottom: 60px; /* Height of the footer */
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  flex-shrink: 0;
 }
